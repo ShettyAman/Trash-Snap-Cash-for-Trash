@@ -44,20 +44,6 @@ Obtain a Gemini API Key from Google AI Studio.
 
 Replace the GEMINI_API_KEY constant in index.html.
 
-📸 Screenshots
-
-Dashboard Overview
-
-AI Analysis
-
-Marketplace
-
-
-
-
-
-
-
 📐 System Architecture
 
 The project follows an Iterative Prototyping model. Data flows from the user's camera through a Canvas pre-processor to the Gemini Vision API, which returns structured JSON for the marketplace engine.
