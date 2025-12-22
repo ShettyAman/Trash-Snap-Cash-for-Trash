@@ -32,7 +32,7 @@ Since Trash Snap is a Single Page Application (SPA), getting it running is simpl
 
 Clone the repository:
 
-git clone [https://github.com/your-username/trash-snap.git](https://github.com/your-username/trash-snap.git)
+git clone [https://github.com/your-username/trash-snap.git](https://github.com/ShettyAman/Trash-Snap-Cash-for-Trash.git)
 
 
 Open the project:
