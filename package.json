@@ -1,0 +1,28 @@
+{
+  "name": "test1",
+  "version": "1.0.0",
+  "description": "An AI-driven waste recovery system; marketplace platform for smart cities. Leverages Google Gemini for zero-shot classification and Leaflet.js for hyperlocal recycling center routing.\r Trash Snap: AI-Driven Waste Recovery & Marketplace ♻️",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShettyAman/Trash-Snap-Cash-for-Trash.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ShettyAman/Trash-Snap-Cash-for-Trash/issues"
+  },
+  "homepage": "https://github.com/ShettyAman/Trash-Snap-Cash-for-Trash#readme"
+}

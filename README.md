@@ -52,4 +52,4 @@ The project follows an Iterative Prototyping model. Data flows from the user's c
 
 Distributed under the MIT License. See LICENSE for more information.
 
-Developed with ❤️ by the Trash Snap Team.
+Developed by Shetty Aman and Pranav Rathore
