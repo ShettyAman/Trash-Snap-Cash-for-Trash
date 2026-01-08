@@ -4,10 +4,15 @@ Overview
 Trash Snap is an intelligent waste management dashboard designed to bridge the gap between household waste segregation and organized recycling markets. The system automates real-time waste identification into categories like Plastic, Paper, Metal, and E-Waste using the Google Gemini API. It further connects users to a hyperlocal marketplace with real-time pricing comparisons and transport routing.
 
 Key Features
+
 Neural Object Detection: Utilizes Gemini 2.5 Flash for high-accuracy identification of multiple waste items simultaneously.
+
 Smart Grouping Logic: Semantically clusters identical items (e.g., "Stack of Cups") to reduce user interface clutter.
+
 Interactive Visual Monitor: Renders responsive CSS bounding boxes over recognized objects for visual verification.
+
 Geolocation & Routing: Plots user location via Leaflet.js and provides travel estimates for walking, biking, or driving to nearby centers.
+
 Comparative Marketplace: Displays live buying rates from verified dealers like Scrapzone and Zolopik, with direct WhatsApp contact buttons.
 
 Tech Stack
