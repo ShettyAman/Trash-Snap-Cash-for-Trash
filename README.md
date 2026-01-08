@@ -1,4 +1,5 @@
 # Trash-Snap-Cash-for-Trash
+
 Overview
 Trash Snap is an intelligent waste management dashboard designed to bridge the gap between household waste segregation and organized recycling markets. The system automates real-time waste identification into categories like Plastic, Paper, Metal, and E-Waste using the Google Gemini API. It further connects users to a hyperlocal marketplace with real-time pricing comparisons and transport routing.
 
