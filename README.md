@@ -1,55 +1,56 @@
 # Trash-Snap-Cash-for-Trash
-An AI-driven waste recovery system; marketplace platform for smart cities. Leverages Google Gemini for zero-shot classification and Leaflet.js for hyperlocal recycling center routing.
-Trash Snap: AI-Driven Waste Recovery & Marketplace ♻️
 
-Trash Snap is a next-generation waste management solution designed for smart cities. It bridges the gap between household waste segregation and the informal recycling economy (Kabadiwalas) using cutting-edge Multimodal AI.
-
-🚀 Key Features
-
-Zero-Shot AI Classification: Instantly identify waste materials (Plastic, Paper, E-waste, Metal) using the Google Gemini 2.5 Flash model.
-
-Visual Analysis Monitor: Real-time bounding box overlays on uploaded images for precise object localization.
-
-Smart Grouping: Intelligent prompt engineering that clusters identical items (e.g., "Stack of Cups") to reduce UI clutter.
-
-Hyperlocal Marketplace: Dynamic buy-back pricing comparison from nearby scrap dealers.
-
-Smart Routing: Integrated Leaflet.js maps providing road-distance estimations and travel times (Walking/Biking/Driving).
-
-🛠️ Tech Stack
-
-Frontend: HTML5, JavaScript (ES6+), Tailwind CSS
-
-AI Engine: Google Generative AI (Gemini 2.5 Flash)
-
-Mapping: Leaflet.js & OpenStreetMap API
-
-Icons: Lucide React / FontAwesome
-
-📦 Installation & Setup
-
-Since Trash Snap is a Single Page Application (SPA), getting it running is simple:
-
-Clone the repository:
-
-git clone [https://github.com/your-username/trash-snap.git](https://github.com/ShettyAman/Trash-Snap-Cash-for-Trash.git)
+Overview
+Trash Snap is an intelligent waste management dashboard designed to bridge the gap between household waste segregation and organized recycling markets. The system automates real-time waste identification into categories like Plastic, Paper, Metal, and E-Waste using the Google Gemini API. It further connects users to a hyperlocal marketplace with real-time pricing comparisons and transport routing.
 
 
-Open the project:
-Simply open index.html in any modern web browser.
+Key Features
 
-API Configuration:
+Neural Object Detection: Utilizes Gemini 2.5 Flash for high-accuracy identification of multiple waste items simultaneously.
 
-Obtain a Gemini API Key from Google AI Studio.
+Smart Grouping Logic: Semantically clusters identical items (e.g., "Stack of Cups") to reduce user interface clutter.
 
-Replace the GEMINI_API_KEY constant in index.html.
+Interactive Visual Monitor: Renders responsive CSS bounding boxes over recognized objects for visual verification.
 
-📐 System Architecture
+Geolocation & Routing: Plots user location via Leaflet.js and provides travel estimates for walking, biking, or driving to nearby centers.
 
-The project follows an Iterative Prototyping model. Data flows from the user's camera through a Canvas pre-processor to the Gemini Vision API, which returns structured JSON for the marketplace engine.
+Comparative Marketplace: Displays live buying rates from verified dealers like Scrapzone and Zolopik, with direct WhatsApp contact buttons.
 
-📜 License
 
-Distributed under the MIT License. See LICENSE for more information.
+Tech Stack
 
-Developed by Shetty Aman and Pranav Rathore
+Frontend: HTML5, Vanilla JavaScript (ES6+), and Tailwind CSS.
+
+Backend: Node.js with Express.js (for secure API handling).
+
+AI Engine: Google Gemini 2.5 Flash API.
+
+Mapping: Leaflet.js and OpenStreetMap.
+
+
+Setup Instructions
+
+Install Node.js: Ensure you have Node.js installed on your system.
+
+Install Dependencies: Open your terminal in the project folder and run:
+
+Bash
+
+npm install express @google/generative-ai dotenv cors
+
+
+Configure API Key: Create a .env file in the root directory and add your key:
+
+Plaintext
+
+GEMINI_API_KEY=your_actual_api_key_here
+
+
+Start the Backend: Run the server to handle neural scan requests:
+
+Bash
+
+node server.js
+
+
+Launch Dashboard: Open index.html using a Live Server (highly recommended for GPS functionality).
